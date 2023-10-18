@@ -1,7 +1,10 @@
 
 /* css */
 
-
+.img-fluid{
+    width: 500;
+    justify-content: center;
+}
 a {
     text-decoration: none;
     color: #192b94;
@@ -18,7 +21,18 @@ h1{
     text-shadow: 2px 1px #ffc62c; 
 }
 
+p{
+    font-size: 18px;
+}
 
+h3{
+    font-size: 50px;
+    color: #192b94;
+    text-shadow: 2px 1px #ffc62c; 
+}
+header{
+    background-color: white;
+}
 div {
     overflow: auto;
 	padding: 2px;
@@ -53,7 +67,6 @@ div {
 
 .form{
     margin: 0 auto;
-    width: 1000px;
     justify-content: center;
 }
 
@@ -73,6 +86,22 @@ div {
     text-shadow: 2px 1px #ffc62c; 
 }
 
+.time
+
+.col-10{
+    font-size: 20px;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.carousel{ 
+    justify-content: center;
+
+}
 
 .col-10{
     font-size: 20px;
